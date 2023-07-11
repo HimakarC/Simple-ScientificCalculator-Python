@@ -6,7 +6,6 @@ root = Tk()
 root.minsize(500, 350)
 root.maxsize(1000, 1000)
 root.title("Scientific Calculator")
-root.wm_iconbitmap("calculator.ico")
 
 sc = StringVar()
 sc = Entry(root, width=31, textvariable=sc, relief=SUNKEN, font="cosmicsansms 20")
