@@ -49,7 +49,7 @@ def sciCal(event):
         if (val == "0"):
             sc.insert(0, "ꝏ")
         else:
-            sc.insert(0, 1 / (val))
+            sc.insert(0, 1 / float(val))
     elif text == "π":
         if val == "":
             ans = str(m.pi)
